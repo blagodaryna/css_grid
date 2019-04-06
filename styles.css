@@ -1,0 +1,96 @@
+.general{
+  width: 1200px;
+  height: 795px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: auto auto auto auto auto;
+  display: grid;
+  grid-gap: 10px;
+}
+.first{
+  grid-area: 1 / 1 / 1 / span 6;
+  background-color: #AEDEBD;
+  border-radius: 15px;
+}
+.second{
+  grid-area: 1 / 7 / 1 / span 6;
+  background: #6BC4B6;
+  border-radius: 15px;
+}
+.third{
+  grid-column: 1 / span 6;
+  background-color: #F86589;
+  grid-row: 2 / span 2;
+  border-radius: 15px;
+}
+.fourth{
+  grid-column: 7 / span 2;
+  grid-row: 2;
+  background-color: #8C94EE;
+  border-radius: 15px;
+}
+.fifth{
+  grid-column: 9 / span 2;
+  grid-row: 2;
+  background-color: #8C94EE;
+  border-radius: 15px;
+}
+.sixth{
+  grid-column: 11 / span 2;
+  grid-row: 2;
+  background-color: #8C94EE;
+  border-radius: 15px;
+}
+.seventh{
+  grid-column: 7 / span 3;
+  grid-row: 3;
+  background-color: #FDC269;
+  border-radius: 15px;
+}
+.eighth{
+  grid-column: 10 / span 3;
+  grid-row: 3;
+  background-color: #FDC269;
+  border-radius: 15px;
+}
+.ninth{
+  grid-column: 1 / span 4;
+  grid-row: 4;
+  background-color: #719ACC;
+  border-radius: 15px;
+}
+.tenth{
+  grid-column: 5 / span 4;
+  grid-row: 4;
+  background-color: #719ACC;
+  border-radius: 15px;
+}
+.eleventh{
+  grid-column: 9 / span 2;
+  grid-row: 4;
+  background-color: #719ACC;
+  border-radius: 15px;
+}
+.twelfth{
+  grid-column: 11 / span 2;
+  grid-row: 4;
+  background-color: #719ACC;
+  border-radius: 15px;
+}
+.thirteenth{
+  grid-column: 1 / span 2;
+  grid-row: 5;
+  background-color: #6853AB;
+  border-radius: 15px;
+}
+.fourteenth{
+  grid-column: 3 / span 6;
+  grid-row: 5;
+  background-color: #6853AB;
+  border-radius: 15px;
+}
+.fifteenth{
+  grid-column: 9 / span 4;
+  grid-row: 5;
+  background-color: #6853AB;
+  border-radius: 15px;
+}
